@@ -17,5 +17,21 @@ console.log(__dirname);
 //     console.log(err);
 //     return;
 //   }
-//   console.log('you are good');
+// //   console.log('you are good');
+const newName = path.join(__dirname, 'Names', 'user.js');
+// // });
+// fs.rename(filepath, newName, (err, res) => {
+//   if (err) {
+//     console.log(err);
+//     return;
+//   }
+//   console.log('we are good');
 // });
+const myName = 'Emmanuel Kosisochukwu Ezeoyiri';
+fs.writeFile(newName, myName, (err, res) => {
+  if (err) {
+    console.log(err);
+    return;
+  }
+  console.log('The content added successfully');
+});
