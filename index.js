@@ -26,12 +26,26 @@ const newName = path.join(__dirname, 'Names', 'user.js');
 //     return;
 //   }
 //   console.log('we are good');
+// // });
+// const myName = 'Emmanuel Kosisochukwu Ezeoyiri';
+// fs.writeFile(newName, myName, (err, res) => {
+//   if (err) {
+//     console.log(err);
+//     return;
+//   }
+//   console.log('The content added successfully');
 // });
-const myName = 'Emmanuel Kosisochukwu Ezeoyiri';
-fs.writeFile(newName, myName, (err, res) => {
+const UpDatedContent = `
+  name: 'Emmanuel Kosisochukwu Ezeoyiri',
+  Age: 25,
+  Sex: 'Male',
+  Nationality: 'Nigerian',
+  Phone: '07033751434',
+  Hobby: 'Football',`;
+fs.writeFile(newName, UpDatedContent, (err, res) => {
   if (err) {
     console.log(err);
     return;
   }
-  console.log('The content added successfully');
+  console.log('Content update');
 });
