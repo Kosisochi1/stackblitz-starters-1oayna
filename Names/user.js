@@ -1,7 +1,10 @@
+Name: Emmanuel Kosisochukwu Ezeoyiri
+Age:25years
 
-  name: 'Emmanuel Kosisochukwu Ezeoyiri',
-  Age: 25,
-  Sex: 'Male',
-  Nationality: 'Nigerian',
-  Phone: '07033751434',
-  Hobby: 'Football',
+    Sex:Male
+
+    Nationality:Nigerian
+
+    Phone: 07033751434
+
+    Hobby: Football
